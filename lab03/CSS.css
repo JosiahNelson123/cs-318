@@ -1,0 +1,48 @@
+h1{
+    background-color:green;
+}
+nav{
+    background-color:greenyellow;
+}
+ p{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ li{
+     font-family: 'Times New Roman', Times, serif;
+ }
+ nav{
+    font-size:x-large;
+ }
+ title{
+    font: size 20px;;
+ }
+ ul{
+     color:rgb(223, 24, 24);
+ }
+ body{
+     color: rgba(34, 102, 79, 0.664);
+ }
+ title{
+     font-weight: bold;
+ }
+ title{
+     font-weight: 700;
+ }
+ nav{
+     text-align: center;
+ }
+ title{
+     text-align: center;
+ }
+ nav{
+    margin:1rem 2rem 3rem;
+ }
+ nav{
+    padding:1rem 2rem 3rem;
+ }
+ title{
+    margin:1rem 2rem 3rem 4rem;
+ }
+ title{
+    padding:1rem 2rem 3rem 4rem;
+ }
