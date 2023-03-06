@@ -1,0 +1,37 @@
+header{
+background-color: white;
+}
+section{
+    background: rgb(222,221,237);
+background: linear-gradient(90deg, rgb(203, 202, 219) 0%, rgb(182, 169, 219) 28%, rgb(166, 162, 223) 29%, rgb(145, 145, 201) 35%, rgb(208, 195, 219) 100%);
+padding: 1rem;
+margin: 1rem 0;
+}
+body{
+    background-image: url(images10/Wood-Background.jpg)
+}
+.Menu{
+display:flex;
+justify-content: space-around;
+}
+
+.Menu img{
+width: 100%;
+}
+
+nav>a:hover{
+    color: #a200ff;
+    text-decoration: underline;
+
+}
+nav{
+   text-align: center;
+}
+nav>a{
+    margin: 1rem;
+    font-size: x-large;
+}
+
+img{
+    max-width: 100%;
+}
