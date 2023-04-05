@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color:lime;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav>a{
+    background-color: lime;
+    color: black;
+    size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+}
+nav>a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+h1,h2{
+    background-image: url(portfolioimages/istockphoto-1297207141-170667a.jpg);
+    text-align: center;
+}
+div>img{
+    width: 30rem;
+    padding: 1rem;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    color: lime;
+    
+}
+footer p{ 
+    margin: 0;
+}
+.Images{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5rem;
+}
+@media (max-width:1000px){
+    div>img{
+        width: 20rem;
+        max-width: 40%;
+        padding: 1rem;
+        align-items: center;
+}
+}
