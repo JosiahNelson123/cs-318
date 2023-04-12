@@ -47,7 +47,9 @@ nav{
 }
 main{
     padding: 1rem;
-}main-img{
+}
+/*The selector should be "main img"*/
+main-img{
     max-width: 100%;
     margin: .5rem 0;
 
