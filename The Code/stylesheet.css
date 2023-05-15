@@ -1,0 +1,241 @@
+nav{
+    background-color: gold;
+    font-size: x-large;
+    padding: 1rem;
+    text-align: center;
+    flex-basis: 100%;
+    
+}
+nav>a{
+    margin: 1rem;
+}
+.Featured{
+    background-color: midnightblue;
+}
+nav>a:hover{
+    background-color: ghostwhite ;
+}
+body{
+    background-color: black;
+    color: red;padding: 1rem;
+    text-align: center;
+}
+footer{
+    background-color: red;
+    padding: 2rem;
+    color: black;
+    font-size: large;
+}
+.Top{
+    background-color: greenyellow;
+    border: 2px dashed orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    size: 5rem;
+    font-size: x-large;
+    margin: 1rem;
+    display: inline-block;
+}
+.Top:hover{
+    background-color: wheat;
+}
+.Member{
+    font-size: large;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+}
+.rewards{
+    justify-content:space-between;
+    background-color: aqua;
+    color: black;
+    padding: 1rem;
+    border: 5px dashed red;
+    font-size: larger;
+}
+.Join,.Victory Points{
+    padding: 1rem;
+    margin: 1rem;
+}
+.Disclaimer,.Member{
+    font-size: larger;
+    background-color: skyblue;
+    padding: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 300px;
+    
+}
+header>a{
+    text-align: left;
+}
+header{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header h1{
+    color: black;
+    font-size: 4rem;
+    flex: 3;
+}
+.TextBox{
+    max-width: 1000px;
+}
+.Name,.PhoneNumber,.Email{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.TextBox{
+  display: flex;
+}
+Form{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+}
+textarea{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+.Products{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Search{ 
+    margin: .5rem;
+}
+.Xbox{
+background-image: url(TheCodeImages/xboxlogo.jfif)
+}
+.PlayStation{
+    background-image: url(TheCodeImages/PSLogo.jpg) 
+}
+.PC{
+    background-image: url(TheCodeImages/rgb.jfif)
+}
+.Nintendo{
+    background-image: url(TheCodeImages/nintendologo.png)
+}
+.Exclusive{
+    background-image: url(TheCodeImages/Exclusive.jfif)
+}
+.Retro{
+    background-image: url(TheCodeImages/Retro.jfif)
+}
+.XboxOne,.PS4,.Razer,.Switch{
+    display: inline-block;
+    vertical-align: text-top;
+    max-width: 24%;
+}
+.Razer img{
+max-width: 57%;
+}
+.Search{
+display: flex;
+justify-content: flex-end;
+}
+.Xbox,.PlayStation,.PC,.Nintendo,.Exclusive,.Retro h2{
+    display: inline-block;
+    vertical-align: text-top;
+    max-width: 24%;
+    
+}
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Products h1{
+flex-basis: 100%;
+}
+.Disclaimer{
+    margin-top: 1rem;
+}
+.Products div{
+    flex-basis: 100%;
+}
+.Products h2{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    max-width: unset;
+    margin: 2rem;
+    border: 3px dotted rgb(255, 2, 179);
+}
+.Products>div>h2>a{
+    background-color: black;
+    padding: .2rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;   
+}
+.Products>div>h2>a:hover{
+    color: darkred;
+}
+.View1, .View2{
+max-width: 33%;
+margin: 1.6rem;
+max-height: 18rem;
+}
+.History{
+background-color:antiquewhite;
+}
+.Goals{
+    background-color:antiquewhite;
+}
+.History, .Goals{
+    padding: .75rem;
+    margin: .5rem;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.Information p{
+    text-align: left;
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+.Points{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+.ProductLink a{
+    background-color: red;
+    color:black;
+
+}
+.ProductLink a:hover{
+    color: snow ;
+}
+.Member a:hover{
+    color: greenyellow;
+}
+@media (max-width: 1175px){
+    .XboxOne,.PS4,.Razer,.Switch{
+        display: block;
+        max-width: 100%;
+    } 
+textarea{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        height: 10rem;
+    }
+Form{
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+    .Name,.PhoneNumber,.Email{
+       max-width: calc(100% - 4rem);
+    }
+}
